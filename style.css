@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.spin{
+    animation-name: spinAnimation;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+}
+
+@keyframes spinAnimation{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 95vh;
+
+    font-family: 'Inter', sans-serif;
+    background-color: #E2CBCC;
+}
+
+#counter-detail{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#fun-fact{
+    text-align: center;
+}
+
+header{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 40vh;
+}
